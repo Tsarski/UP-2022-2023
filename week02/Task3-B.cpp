@@ -14,9 +14,13 @@ int main()
     bool hasOddNumber = (lastD % 2 == 1) || (secondD % 2 == 1) || (thirdD % 2 == 1) || (fourthD % 2 == 1);
 
     if (hasOddNumber) {
-        cout << "Has an odd number";
+        cout << "Has an odd number" << endl;
+        // cout << " It's true "<< endl;
+
     }
     else {
-        cout << "Doesn't have an odd number";
+        cout << "Doesn't have an odd number" << endl;
+        // cout << "It's not true" << endl; 
+
     }
 }
