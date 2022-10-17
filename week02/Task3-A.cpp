@@ -18,9 +18,11 @@ int main()
     if(isDifferent)
     {
       cout << "All numbers are different" << endl;
+      // cout << " It's true "<< endl;
     }
     else
     {
       cout << "Not all numbers are different" << endl;
+     // cout << "It's not true" << endl; 
     }
 }
