@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 int sumDigits(int num) 
 {
     int sum = 0;
